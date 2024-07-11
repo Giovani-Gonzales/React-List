@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ModeloTitulo = styled.div `
-    background: linear-gradient(45deg, #cb356b, #bd3f32)
+    background: linear-gradient(45deg, #cb356b, #bd3f32);
     color:white;
     padding:32px;
 `

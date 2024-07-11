@@ -4,6 +4,8 @@ import Campo from './components/Campo'
 import Conteudo from './components/Conteudo'
 import Entrada from './components/Entrada'
 
+
+
 import { useState } from 'react'
 
 const Inicio = () => {
@@ -26,9 +28,9 @@ const Inicio = () => {
       </Campo>
 
       <Campo id='2'>
-        {
-          lista.map(item => {
-            <Conteudo key={item} texto={item}/>
+      {
+          lista.map((item, index) => {
+            return <Conteudo key={index} texto={item}/>
           })
         }
       </Campo>
